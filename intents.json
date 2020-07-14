@@ -1,0 +1,138 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey", "Hello", " Hi" ],
+         "responses": ["Hello", "Hi there", "Hi", "Hello there" ],
+         "context": [""]
+        },
+        {"tag": "greeting2",
+         "patterns": ["How are you?", "How are you doing today?", "how are you?" ],
+         "responses": ["Good, thanks for asking", "Awesome, Good to see you again"],
+         "context": [""]
+          },
+        {"tag": "greeting3",
+         "patterns": ["Okay", "ok", "Ok", "Yeah", "Glad to hear that", "Nice" , "That's good", "Really", "Great", "alright", "Awesome"],
+         "responses": ["Alright", "Ok😊", "yeah"],
+          "context": [""]
+        },
+        {"tag": "greeting4",
+           "patterns": ["Can you talk ?"],
+           "responses": ["No , I cant, but i can reply to your message "],
+           "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "you are welcome"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["What's you name", "What is your name"],
+         "responses": ["Peter's bot"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you.", "Please give me more info.","Please come again.", "Not sure I understand."],
+         "context": [""]
+        },
+        {"tag": "language",
+         "patterns": ["what language do you speak?", "What language can you speak?", "what is your language?"],
+         "responses": ["Python"],
+         "context": [""]
+        },
+        {"tag": "Robot",
+         "patterns": ["Are you human?"],
+         "responses": ["No, I'm a robot, i use artificial intelligence AI software that can simulate a conversation(or a chat) with a user in natural language through messaging applications, websites, mobile apps or through the telephone." ],
+         "context": [""]
+        },
+        {"tag": "Robot1",
+         "patterns": ["Are you a robot?" ],
+         "responses": ["Yes, I'm a robot, i use artificial intelligence AI software that can simulate a conversation(or a chat) with a user in natural language through messaging applications, websites, mobile apps or through the telephone." ],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How can you help me?", "What you can do?", "What help can you provide?", "How you can be helpful?", "How", "How ?" ],
+         "responses": ["I can tell you the names of interesting places close to you" ],
+         "context": [""]
+        },
+        {"tag": "Interesting places",
+         "patterns": ["What are the interesting places around me?", "Interesting places around",
+           "Interesting places around me", "Interesting places close by?"],
+         "responses": ["Please tell me are you on the Red , Blue or Green line"],
+         "context": ["Metro Line"]
+        },
+        {"tag": "I don't Know",
+         "patterns": ["I don't Know" ],
+         "responses": ["No problem, What's the closest metro to you? " ],
+         "context": [""]
+        },
+        {"tag": "Metro Line",
+         "patterns": ["RED", "red", "blue", "Blue", "Green", "green" ],
+         "responses": ["Got it , What's the closest metro to you?"],
+         "context": [""]
+        },
+        {"tag": "Red Line",
+         "patterns": ["Akademmistechko", "Zhytomyrska", "Sviatoshyn", "Nyvky",
+           "Beresteiska", "Shuliavska", "Politekhnichnyi Instytut", "Vokzalna",
+           "Universytet","Hidropark", "Darnytsia", "Lisova"],
+         "responses": ["1.The Aquarium(Andriya Malyshka St,3),     2.Kiev Zoo(Peremohy Ave 32)"],
+         "context": [""]
+        },
+        {"tag": "Red Line1",
+         "patterns": ["Teatralna" ],
+         "responses": ["1. St. Sophia's Cathedral( Volodymyrska St, 24 ),   2. Pinchuk Art Centre( вул. Велика ВасильківськаBaseina St 1 ),    3. Golden Gate( Kiev, Volodymyrska St, 40А )"],
+         "context": [""]
+          },
+          {"tag": "Red Line2",
+         "patterns": ["Khreshchatyk"],
+         "responses": ["1. Kiev Funicular,  2. Pinchuk Art Centre( вул. Велика Васильківська, Baseina St, 1 ),   3. Independence Square( Khreschatyk St, 20-22 )"],
+         "context": [""]
+          },
+        {"tag": "Red Line3",
+         "patterns": ["Arsenalna", "Dnipro", "Livoberezhna", "Chernihivska"],
+         "responses": ["1. Mariyinsky Palace( 5A, Mykhaila Hrushevskoho St ),  2. Mystetskyi Arsenal National Art and Culture Museum Complex( Lavrska St, 10-12 ),   3.The Motherland Monument( Zapecherna St, Kyiv )"],
+         "context": [""]
+          },
+        {"tag": "Green Line",
+         "patterns": ["Zoloti Vorota"],
+         "responses": ["1. Golden Gate( Kiev, Volodymyrska St, 40А ),   2.St. Sophia's Cathedral( Volodymyrska St 24 ),   3.St. Andrew's Church( Andriivs'kyi descent, 23 )"],
+         "context": ["green_line"]
+        },
+        {"tag": "Green Line1",
+         "patterns": ["Palats Sportu", "Klovska", "Pecherska"],
+         "responses": [" 1.Mariyinsky Palace(5A Mykhaila Hrushevskoho St ),   2.Botanical Garden( Tymiriazievska St 1К23 ),   3.Golden Gate( Volodymyrska St 40А )" ],
+         "context": [""]
+        },
+        {"tag": "Green Line2",
+         "patterns": ["Druzhby Narodiv", "Vydubychi", "Slavutych", "Osokorky", "Pozniaky",
+           "Kharkivska", "Vrlytsia", "Borypilska", "Chervony Khutir", "Syrets", "Dorohozhychi", "Lukianivska"],
+         "responses": ["1. The Motherland Monument( Zapecherna St, Kyiv ),    2.Botanical Garden( Tymiriazievska St, 1К23 )"],
+         "context": [""]
+        },
+        {"tag": "Blue Line",
+         "patterns": ["Heroiv Dnipra", "Minska", "Obolon", "Pochaina", "Tarasa Shevchenka",
+           "Kontraktova Ploshcha", "Poshtova Ploshcha" ],
+         "responses": ["1. St. Sophia's Cathedral( Volodymyrska St, 24 ),   2. Kiev Funicular,   3. Mykhailo Bulgakov Museum-Memorial( Andriivs'kyi descent, 13А )"],
+         "context": [""]
+        },
+        {"tag": "Blue Line1",
+         "patterns": ["Maidan Nezalezhnosti"],
+         "responses": ["1. National Art Museum of Ukraine( Mykhaila Hrushevskoho St ),     2. Independence Square( Khreschatyk St, 20-22 ),    3. Kiev Funicular" ],
+         "context": [""]
+        },
+        {"tag": "Blue Line2",
+         "patterns": ["Maidan Nezalezhnosti","Ploshcha Lva Tolstoho", "Olimpiiska", "Palats Ukrayina" ],
+         "responses": ["1. Botanical Garden( 6 Tymiriazievska St, 1К2 ),    2.National Art Museum of Ukraine( 6 Mykhaila Hrushevskoho St ),    3. Pinchuk Art Centre( вул. Велика Васильківська Baseina St 1 )" ],
+         "context": [""]
+         },
+        {"tag": "Blue Line3",
+         "patterns": ["Lybidska", "Demiivska", "Holosiivska", "Vasylkivska", "Vystavkovyi Tsentr", "Ipodrom", "Teremky"],
+         "responses": [" 1. Expo Center of Ukraine, М01    2. Feofaniya Park( 2, вул. Академіка Лєбєдєва )" ],
+         "context": [""]
+        }
+   ]
+}
